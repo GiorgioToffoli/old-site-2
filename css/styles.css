@@ -1,0 +1,396 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: #eeeeee;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.colored-txt {
+  color: #00adb5;
+}
+
+.font-change {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+}
+
+/* Nav Bar  */
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  animation: fadein 2s;
+}
+
+.item-right {
+  color: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 8px;
+}
+
+#name-img {
+  width: 30px;
+  display: inline-block;
+  position: fixed;
+  left: 5px;
+  top: 8px;
+  animation: fadein 2s;
+}
+
+#nav-bar-name {
+  margin: 0;
+  padding: 10px 10px 10px 45px;
+  position: fixed;
+  color: #00adb5;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.25rem;
+  animation: fadein 2s;
+}
+
+.item-right:hover {
+  color: #eeeeeec5;
+}
+
+/* Intro */
+
+#container-1 {
+  background-color: #222831;
+  width: 100%;
+  height: 90rem;
+  text-align: center;
+}
+
+.greeting {
+  text-align: center;
+  font-size: 7rem;
+  color: #eeeeee;
+  margin: auto;
+  display: inline-block;
+  transition: transform 0.2s;
+  font-family: 'Source Code Pro', monospace;
+  position: relative;
+  top: 40%;
+  animation: fadein 2s;
+}
+
+.greeting:hover {
+  color: #00adb5;
+  transform: scale(1.2);
+}
+
+/* About Me */
+
+#container-2 {
+  width: 100%;
+  height: 110rem;
+  background-color: #393e46;
+}
+
+#me-img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5.5% 0 2% 0;
+}
+
+#name {
+  font-family: 'Source Code Pro', monospace;
+  color: #eeeeee;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.info {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 2%;
+  margin: auto;
+  font-size: 1.5rem;
+  width: 45%;
+  line-height: 1.75;
+}
+
+#arrow-img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  opacity: 0.7;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+#arrow-img:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+/* Hobbies */
+
+#container-3 {
+  width: 100%;
+  height: 135rem;
+  background-color: #222831;
+}
+
+#hobbies-title {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  margin: 0;
+  padding-top: 2.5%;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+/* Hobby 1 */
+
+#hobby-1 {
+  margin: 10px;
+  width: 45%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+#gaming-img {
+  float: left;
+  width: 30%;
+  padding-right: 40px;
+  padding-left: 30px;
+  position: relative;
+  bottom: 30px;
+  transition: transform 0.2s;
+}
+
+#gaming-img:hover {
+  transform: scale(1.2);
+}
+
+#hobby-title-1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
+  color: #00adb5;
+  display: inline-block;
+  padding-left: 27px;
+}
+
+#hobby-desc-1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+  display: inline-block;
+  width: 60%;
+}
+
+/* Hobby 2  */
+
+#hobby-2 {
+  width: 45%;
+  float: right;
+  position: relative;
+  top: 20%;
+  right: 10%;
+}
+
+#coding-img {
+  float: right;
+  width: 32%;
+  padding-right: 30px;
+  position: relative;
+  bottom: 30px;
+  transition: transform 0.2s;
+}
+
+#coding-img:hover {
+  transform: scale(1.2);
+}
+
+#hobby-title-2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
+  color: #00adb5;
+  display: inline-block;
+  position: relative;
+  left: 41%;
+}
+
+#hobby-desc-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  left: 10px;
+  bottom: 30px;
+  display: inline-block;
+  width: 55%;
+  text-align: right;
+}
+
+/* Hobby 3 */
+
+#hobby-3 {
+  position: relative;
+  top: 45%;
+  display: inline-block;
+  width: 45%;
+  margin: 10px;
+  left: 10%;
+}
+
+#video-making-img {
+  width: 30%;
+  float: left;
+  transition: transform 0.2s;
+}
+
+#video-making-img:hover {
+  transform: scale(1.2);
+}
+
+#hobby-title-3 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
+  color: #00adb5;
+  display: inline-block;
+  padding-left: 75px;
+}
+
+#hobby-desc-3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  left: 78.5px;
+  bottom: 10px;
+  display: inline-block;
+  width: 60%;
+}
+
+/* Contact Me */
+
+#container-4 {
+  width: 100%;
+  height: 50rem;
+  background-color: #393e46;
+}
+
+#contact-me-title {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 7rem;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top: 5%;
+}
+
+#twitter {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: 20%;
+  left: 30%;
+}
+
+#twitter-img {
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+#twitter-img:hover {
+  transform: scale(1.5);
+}
+
+#instagram {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: 20%;
+  left: 50%;
+}
+
+#instagram-img {
+  width: 200px;
+  padding-bottom: 17px;
+  transition: transform 0.2s;
+}
+
+#instagram-img:hover {
+  transform: scale(1.5);
+}
+
+/* Copyright */
+
+#container-5 {
+  width: 100%;
+  height: 21px;
+  background-color: #222831;
+  margin: 0;
+}
+
+#copyright {
+  margin: 0;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  color: #00adb5;
+}
+
+/* Animation  */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
